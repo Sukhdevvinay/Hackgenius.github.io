@@ -1,8 +1,22 @@
-body{
+/*Styles used in Body*/
+body{   
     background-color: black;
     color: white;
   }
-  
+/*Fixing a position of navigation bar*/
+.head {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.main-content {
+    margin-top: 55px; /* The same height as the navbar */
+}
+/*background color of navigation bar*/
+.head.fixed {
+    background-color:black;  
+}
+/*Style used in container of icons*/
   .head {
       border-style: solid;
       border-color: black;
@@ -12,10 +26,12 @@ body{
       margin-top: -8px;
       margin-left: -8px;
       margin-right: -8px;
-  }
+      }
+/*Used to remove the bottom line of links */
   nav a{
       text-decoration: none;
   }
+  /*Styles used in icons */
   .menu {
       font-size: 23px;
       border: solid;
@@ -23,14 +39,8 @@ body{
       color: white;
       margin-right: 127px;
       float: right;
-  }
-  .port {
-      border-style: solid;
-      border-color: black;
-  }
-  #welcome {
-      float: center;
-  }
+  }  
+  /*shifting information div to the center */
   .center {
       display: flex;
       justify-content: center;
@@ -38,55 +48,97 @@ body{
       font-size: 112px;
       padding-top: 14px;
     }
+    /*styles used in Images */
     #img {
       margin-top: -39px;
       height: 650px;
       width: 1442px;
     }
-  
+    /*styles of team container*/
   .team {
       border-style: solid;
   }
+  /*styles of Person1*/
   .hemanshu1{
       display:flex
   }
+  /*styles of Personinfo1*/
   .hemanshuinfo{
       margin-left: 213px;
       width: 477px;
       margin-top: -41px;
   }
-  
+  /*styles of Person2*/
   .name {
       font-size: 50px;
   }
+  /* styles of Head line*/
   #T1,#C1 {
       text-align: center;
       color: white;
   }
+  /* styles of Person2 */
   .ravindra1 {
       display:flex
   }
+  /* styles of Personinfo2 */
   .ravindrainfo {
       margin-left: 228px;
       width: 477px;
       margin-top: 14px;
   }
+  /* styles of Person3 */
   .vinay1 {
       display:flex
   }
+  /* Styles of Personinfo3 */
   .vinayinfo {
-      margin-left: 109px;
+      margin-left: 202px;
       width: 477px;
       margin-top: -33px;
   }
-  .icons {
-    border-style: solid;
-    border-color: black;
-    margin-bottom: 12px;
+  /*  */
+  .button{
+      text-decoration: none;
+      padding-left: 30px;
   }
-  .Iot {
-    border: red;
-    border-style: solid;
-    padding-bottom: 14px;
-    width:47px;
+  /* Styles of Conatct menu bar */
+  .Contactinfo{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+  }
+  /* styles of person3 info in menu bar */
+  .vinay2{
+      margin-top: 12px;
+  }
+   /* styles of person2 info in menu bar */
+  .ravindra2{
+      margin-top: 12px;
+      margin-right: -316px;
+  }
+   /* styles of person1 info in menu bar */
+  .hemanshu2{
+  margin-left: 12px;
+  margin-top: 12px;
+  }
+  /*Team Section Styles*/
+  .part2{
+    margin-top: 83px;
+  }
+  /* styles of icons after clicking on it */
+  .menu:hover{
+    color: aqua;
+  }
+  /*Arrangement of fixing the position*/
+  .right {
+    margin-left: 14px;
+  }
+  /*Arrangement of fixing the position*/
+  #rav {
+    margin-top: 75px;
+  }
+  /*Arrangement of fixing the position*/
+  #hem{
+    margin-top: 14px;
   }
