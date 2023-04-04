@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    color: white;
+  }
+  
+  .head {
+      border-style: solid;
+      border-color: black;
+      height: 55px;
+      background-color: black;
+      padding-top: 8px;
+      margin-top: -8px;
+      margin-left: -8px;
+      margin-right: -8px;
+  }
+  nav a{
+      text-decoration: none;
+  }
+  .menu {
+      font-size: 23px;
+      border: solid;
+      border-color: black;
+      color: white;
+      margin-right: 127px;
+      float: right;
+  }
+  .port {
+      border-style: solid;
+      border-color: black;
+  }
+  #welcome {
+      float: center;
+  }
+  .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 112px;
+      padding-top: 14px;
+    }
+    #img {
+      margin-top: -39px;
+      height: 650px;
+      width: 1442px;
+    }
+  
+  .team {
+      border-style: solid;
+  }
+  .hemanshu1{
+      display:flex
+  }
+  .hemanshuinfo{
+      margin-left: 213px;
+      width: 477px;
+      margin-top: -41px;
+  }
+  
+  .name {
+      font-size: 50px;
+  }
+  #T1,#C1 {
+      text-align: center;
+      color: white;
+  }
+  .ravindra1 {
+      display:flex
+  }
+  .ravindrainfo {
+      margin-left: 228px;
+      width: 477px;
+      margin-top: 14px;
+  }
+  .vinay1 {
+      display:flex
+  }
+  .vinayinfo {
+      margin-left: 109px;
+      width: 477px;
+      margin-top: -33px;
+  }
+  .icons {
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 12px;
+  }
+  .Iot {
+    border: red;
+    border-style: solid;
+    padding-bottom: 14px;
+    width:47px;
+  }
