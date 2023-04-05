@@ -1,9 +1,9 @@
-/*Styles used in Body*/
+/* /Styles used in Body/ */
 body{   
     background-color: black;
     color: white;
-  }
-/*Fixing a position of navigation bar*/
+}
+/* /Fixing a position of navigation bar/ */
 .head {
     position: fixed;
     width: 100%;
@@ -12,133 +12,142 @@ body{
 .main-content {
     margin-top: 55px; /* The same height as the navbar */
 }
-/*background color of navigation bar*/
+/* /background color of navigation bar/ */
 .head.fixed {
     background-color:black;  
 }
-/*Style used in container of icons*/
-  .head {
-      border-style: solid;
-      border-color: black;
-      height: 55px;
-      background-color: black;
-      padding-top: 8px;
-      margin-top: -8px;
-      margin-left: -8px;
-      margin-right: -8px;
-      }
+/* /Style used in container of icons/ */
+.head {
+    border-style: solid;
+    border-color: black;
+    height: 55px;
+    background-color: black;
+    padding-top: 8px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    }
 /*Used to remove the bottom line of links */
-  nav a{
-      text-decoration: none;
-  }
-  /*Styles used in icons */
-  .menu {
-      font-size: 23px;
-      border: solid;
-      border-color: black;
-      color: white;
-      margin-right: 127px;
-      float: right;
-  }  
-  /*shifting information div to the center */
-  .center {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 112px;
-      padding-top: 14px;
+nav a{
+    text-decoration: none;
+}
+/*Styles used in icons */
+.menu {
+    font-size: 23px;
+    border: solid;
+    border-color: black;
+    color: white;
+    margin-right: 127px;
+    float: right;
+}  
+/*shifting information div to the center */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 112px;
+    padding-top: 14px;
     }
     /*styles used in Images */
     #img {
-      margin-top: -39px;
-      height: 650px;
-      width: 1442px;
+    margin-top: -39px;
+    height: 650px;
+    width: 1442px;
     }
-    /*styles of team container*/
-  .team {
-      border-style: solid;
-  }
-  /*styles of Person1*/
-  .hemanshu1{
-      display:flex
-  }
-  /*styles of Personinfo1*/
-  .hemanshuinfo{
-      margin-left: 213px;
-      width: 477px;
-      margin-top: -41px;
-  }
-  /*styles of Person2*/
-  .name {
-      font-size: 50px;
-  }
-  /* styles of Head line*/
-  #T1,#C1 {
-      text-align: center;
-      color: white;
-  }
-  /* styles of Person2 */
-  .ravindra1 {
-      display:flex
-  }
-  /* styles of Personinfo2 */
-  .ravindrainfo {
-      margin-left: 228px;
-      width: 477px;
-      margin-top: 14px;
-  }
-  /* styles of Person3 */
-  .vinay1 {
-      display:flex
-  }
-  /* Styles of Personinfo3 */
-  .vinayinfo {
-      margin-left: 202px;
-      width: 477px;
-      margin-top: -33px;
-  }
-  /*  */
-  .button{
-      text-decoration: none;
-      padding-left: 30px;
-  }
-  /* Styles of Conatct menu bar */
-  .Contactinfo{
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row;
-  }
-  /* styles of person3 info in menu bar */
-  .vinay2{
-      margin-top: 12px;
-  }
-   /* styles of person2 info in menu bar */
-  .ravindra2{
-      margin-top: 12px;
-      margin-right: -316px;
-  }
-   /* styles of person1 info in menu bar */
-  .hemanshu2{
-  margin-left: 12px;
-  margin-top: 12px;
-  }
-  /*Team Section Styles*/
-  .part2{
-    margin-top: 83px;
-  }
-  /* styles of icons after clicking on it */
-  .menu:hover{
-    color: aqua;
-  }
-  /*Arrangement of fixing the position*/
-  .right {
-    margin-left: 14px;
-  }
-  /*Arrangement of fixing the position*/
-  #rav {
-    margin-top: 75px;
-  }
-  /*Arrangement of fixing the position*/
-  #hem{
+    /* /styles of team container/ */
+.team {
+    border-style: solid;
+}
+/* /styles of Person1/ */
+.hemanshu1{
+    display:flex
+}
+/* /styles of Personinfo1/ */
+.hemanshuinfo{
+    margin-left: 213px;
+    width: 477px;
+    margin-top: -41px;
+}
+/* /styles of Person2/ */
+.name {
+    font-size: 50px;
+}
+/* styles of Head line*/
+#T1,#C1 {
+    text-align: center;
+    color: white;
+}
+/* styles of Person2 */
+.ravindra1 {
+    display:flex
+}
+/* styles of Personinfo2 */
+.ravindrainfo {
+    margin-left: 228px;
+    width: 477px;
     margin-top: 14px;
+}
+/* styles of Person3 */
+.vinay1 {
+    display:flex
+}
+/* Styles of Personinfo3 */
+.vinayinfo {
+    margin-left: 202px;
+    width: 477px;
+    margin-top: -33px;
+}
+/*  */
+.button{
+    text-decoration: none;
+    padding-left: 30px;
+}
+/* Styles of Conatct menu bar */
+.Contactinfo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+/* styles of person3 info in menu bar */
+.vinay2{
+    margin-top: 12px;
+}
+/* styles of person2 info in menu bar */
+.ravindra2{
+    margin-top: 12px;
+    margin-right: -316px;
+}
+/* styles of person1 info in menu bar */
+.hemanshu2{
+margin-left: 12px;
+margin-top: 12px;
+}
+/* /Team Section Styles/ */
+.part2{
+    margin-top: 83px;
+}
+/* styles of icons after clicking on it */
+.menu:hover{
+    color: aqua;
+}
+/* Arrangement of fixing the position */
+.right {
+    margin-left: 14px;
+}
+/* /Arrangement of fixing the position/ */
+#rav {
+    margin-top: 75px;
+}
+/* /Arrangement of fixing the position/ */
+#hem{
+    margin-top: 14px;
+}
+.footer {
+    background-color:#201717;
+    padding: 20 px;
+    text-align: center;
+    color:white;
+    margin-bottom: -19px;
+    margin-left: -8px;
+    margin-right: -8px;
   }
