@@ -23,7 +23,7 @@ body{
     height: 55px;
     background-color: black;
     padding-top: 8px;
-    margin-top: -8px;
+    margin-top: -17px;
     margin-left: -8px;
     margin-right: -8px;
     }
@@ -143,8 +143,9 @@ margin-top: 12px;
 #hem{
     margin-top: 14px;
 }
+/* footer styling */
 .footer {
-    background-color:#201717;
+    background-color:#1e1f2ee7;
     padding: 20 px;
     text-align: center;
     color:white;
@@ -152,7 +153,11 @@ margin-top: 12px;
     margin-left: -8px;
     margin-right: -8px;
   }
-
+/* image styling */
  #image{
     border-radius: 50%;
+ }
+ /* resume site */
+ .resume{
+    text-decoration: none;
  }
